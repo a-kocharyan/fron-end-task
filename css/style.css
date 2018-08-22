@@ -1,0 +1,234 @@
+.main_content{
+	background-color: rgb(25, 33, 38);
+	height: 100vh;
+	padding-left: 0!important;
+}
+.signBtn{
+	float: right;
+}
+.menu_section{
+	background-color: rgb(25, 33, 38);
+    border-bottom: 1px solid rgb(20, 24, 28);
+}
+.trade{
+	position: relative;
+	font-size: 12px;
+    font-weight: bold;
+    padding: 10px 28px;
+    text-decoration: none;
+    border-right: 1px solid rgb(20, 24, 28);
+    border-left: 1px solid rgb(20, 24, 28);
+}
+.menu_section a{
+	color: white;
+	text-align: center;
+}
+.trade span{
+	position: absolute;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    height: 2px;
+    background: rgb(49, 121, 205);
+}
+.menu_section button{
+	font-weight: bold;
+    text-transform: uppercase;
+    white-space: nowrap;
+    cursor: pointer;
+    height: 25px;
+    font-family: atlas, opensans, sans-serif, btcglyph;
+    font-size: 10px;
+    line-height: 25px;
+    color: rgba(255, 255, 255, 0.4);
+    flex: 1 1 auto;
+    border-radius: 1px;
+    outline: none;
+    transition: transform 0.2s ease-in-out 0s, border-color 0.2s ease-in-out 0s, color 0.2s ease-in-out 0s;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.4);
+    border-image: initial;
+    background: rgb(21, 35, 44);
+    padding: 0px 40px;
+    margin-right: 10px;
+    margin-top: 1%;
+}
+.rate{
+    padding: 12px 28px;
+    color: white;
+	/*margin-top: 4%;*/
+}
+.rate div{
+	display: inline;
+}
+.rateLogo{
+	font-style: bold;
+	margin-right: 10px;
+}
+.arrowBloc{
+	margin-left: 10px;
+    line-height: 0;
+    transition: transform 0.2s ease 0s;
+}
+.arrowBloc span{
+    display: inline-block;
+    transform: rotate(45deg);
+    margin-bottom: 2px;
+    padding: 2px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-image: initial;
+    border-width: 0px 2px 2px 0px;
+}
+.tradePrice{
+    padding: 12px 28px;
+    /*margin-top: 10px;*/
+}
+.tradePrice div{
+	float: left;
+	    margin-left: 9px;
+    line-height: 1.5;
+        margin-right: 30px;
+
+    
+}
+
+
+.hUzWhp {
+    font-weight: bold;
+    line-height: 1.5;
+    word-break: normal;
+    display: inline;
+    font-family: atlas-typewriter, monospace, btcglyph;
+    font-size: 13px;
+    text-align: left;
+    text-transform: inherit;
+    color: rgb(255, 255, 255);
+}
+
+    
+.jJtetF {
+    font-weight: normal;
+    line-height: 1.5;
+    word-break: normal;
+    display: inline;
+    font-family: atlas, opensans, sans-serif, btcglyph;
+    font-size: 11px;
+    text-align: left;
+    text-transform: inherit;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.gPXdfE {
+    font-weight: bold;
+    line-height: 1.5;
+    word-break: normal;
+    display: inline;
+    font-family: atlas-typewriter, monospace, btcglyph;
+    font-size: 13px;
+    text-align: left;
+    text-transform: inherit;
+    color: rgb(68, 190, 36);
+}
+
+.clear{
+	clear: both;
+}
+
+.fYAjUr{
+	padding: 20px 28px;
+    background: rgb(49, 121, 205);
+}
+.sign{
+	padding-right: 0!important;
+}
+.signIn{
+ margin-bottom: 10px;
+     font-weight: bold;
+    text-transform: uppercase;
+    white-space: nowrap;
+    cursor: pointer;
+    height: 40px;
+    font-family: atlas, opensans, sans-serif, btcglyph;
+    font-size: 10px;
+    line-height: 40px;
+    border-radius: 1px;
+    outline: none;
+    transition: transform 0.2s ease-in-out 0s, border-color 0.2s ease-in-out 0s, color 0.2s ease-in-out 0s;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.4);
+    border-image: initial;
+    background: rgb(49, 121, 205);
+    color: white;
+    text-align: center;
+}
+
+
+
+.signIn:hover {
+    color: rgb(255, 255, 255);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-image: initial;
+}
+
+.or{
+	   
+    font-family: atlas, opensans, sans-serif, btcglyph;
+    font-size: 13px;
+    text-align:center;
+    display:block;
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+}
+form{
+	background-color: #334046;
+}
+
+.order{
+	 height: 46px;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 28px;
+    border-bottom: 1px solid rgb(20, 24, 28);
+    background: rgb(47, 61, 69);
+    color: white;
+}
+
+.block1, .bloc2{
+	padding: 20px 63px 0px;
+}
+.buy,.sell{
+	height: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 10px;
+    color: rgb(233, 233, 233);
+    flex: 1 1 auto;
+    float: left;
+    width: 90px;
+    text-align: center;
+    line-height:25px;
+}
+.buy{
+    background: rgb(92, 101, 107);
+
+}
+.sell{
+	background: rgb(239, 79, 27);
+}
+.bloc2 span{
+	color: white;
+	padding-right: 6px;
+	border-bottom: 2px solid rgba(233, 233, 233, 0.4);
+	cursor:pointer;
+	text-transform: uppercase;
+}
+.notActive{
+	color:rgba(233, 233, 233, 0.4)!important;
+}
+
+	
